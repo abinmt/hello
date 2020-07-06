@@ -5,6 +5,6 @@ class Util
 {
     public function sayHello() : void
     {
-        echo "HelloWorld";
+        echo "Hello!";
     }
 }
