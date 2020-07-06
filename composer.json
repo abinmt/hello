@@ -1,0 +1,20 @@
+{
+    "name": "abinmt/hello",
+    "type": "library",
+    "description": "Just here to say 'Hello!'",
+    "authors": [
+        {
+            "name": "Abin Thomas",
+            "email": "abinthomas.me@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abinmt\\Hello\\": "src"
+        }
+    }
+}
